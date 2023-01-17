@@ -12,8 +12,7 @@ public class myConnection {
             System.out.println("There is connection");
             return connection;
 
-        } catch (
-                SQLException e) {
+        } catch (SQLException e) {
             System.out.println("Error!!");
             e.printStackTrace();
             throw new RuntimeException(e);
@@ -54,7 +53,20 @@ public class myConnection {
             throw new RuntimeException(e);
         }
     }
-
+    public void Update(String Name,int ConditionId) {
+        try {
+            String query = String.format("UPDATE \"try_table\"" +
+                    "SET try_coloms='%s'" + "WHERE id= '%s'", Name,Integer.toString(ConditionId));
+            Connection connection = getConnection();
+            Statement statement = connection.createStatement();
+            int resultSet = statement.executeUpdate(query);
+            connection.close();
+        } catch (SQLException e) {
+            System.out.println("Error!!");
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
+    }
 }
 
 

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca999b46-926d-4789-9d66-53b249004f24" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="ca999b46-926d-4789-9d66-53b249004f24" name="Changes" comment="add insert and select">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/myConnection.java" afterDir="false" />
@@ -73,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673894738006</updated>
       <workItem from="1673894739236" duration="1392000" />
-      <workItem from="1673975375440" duration="5894000" />
+      <workItem from="1673975375440" duration="7780000" />
     </task>
     <task id="LOCAL-00001" summary="zf">
       <created>1673894782998</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673976088868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add insert and select">
+      <created>1673981455621</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673981455621</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +118,7 @@
     <MESSAGE value="zf" />
     <MESSAGE value="add copyRight" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="add insert and select" />
+    <option name="LAST_COMMIT_MESSAGE" value="add insert and select" />
   </component>
 </project>

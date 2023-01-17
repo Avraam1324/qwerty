@@ -11,7 +11,8 @@ public class Main {
         myConnection con=new myConnection();
         con.getConnection();
         con.select();
-        con.insert("avraam");
+//        con.insert("avraam");
+        con.Update("ishumbl",2);
 
     }
 }
