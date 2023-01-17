@@ -1,5 +1,6 @@
 package org.example;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -9,13 +10,14 @@ public class myConnection {
     String password = "tarop1324";
     public void getConnection() {
         try {
-            java.sql.Connection connection = DriverManager.getConnection(jdbcURL, userName, password);
+            Connection connection = DriverManager.getConnection(jdbcURL, userName, password);
             System.out.println("There is connection");
             connection.close();
 
         } catch (
                 SQLException e) {
             System.out.println("Error!!");
+            e.printStackTrace();
             throw new RuntimeException(e);
         }
     }
