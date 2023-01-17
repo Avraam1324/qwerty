@@ -5,12 +5,13 @@ package org.example;
  * @date 15/01/23
  */
 
-import static jdk.internal.logger.DefaultLoggerFinder.SharedLoggers.system;
 
 public class Main {
     public static void main(String[] args) {
         myConnection con=new myConnection();
         con.getConnection();
-        System.out.println("Hello World");
+        con.select();
+        con.insert("avraam");
+
     }
 }
