@@ -54,14 +54,17 @@ public class myConnection {
         }
     }
     public void Update(String Name,int ConditionId) {
+        String query = ("UPDATE try_table SET try_coloms = ?  WHERE id = ? ");
         try {
-            String query = String.format("UPDATE \"try_table\"" +
-                    "SET try_coloms='%s'" + "WHERE id= '%s'", Name,Integer.toString(ConditionId));
             Connection connection = getConnection();
-            Statement statement = connection.createStatement();
-            int resultSet = statement.executeUpdate(query);
+            PreparedStatement statement= connection.prepareStatement(query);
+            statement.setString(1,Name);
+            statement.setInt(2,ConditionId);
+            int resultSet=statement.executeUpdate();
             connection.close();
-        } catch (SQLException e) {
+
+        }
+        catch (SQLException e) {
             System.out.println("Error!!");
             e.printStackTrace();
             throw new RuntimeException(e);

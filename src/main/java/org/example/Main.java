@@ -12,7 +12,6 @@ public class Main {
         con.getConnection();
         con.select();
 //        con.insert("avraam");
-        con.Update("ishumbl",2);
-
+        con.Update("ishumbl",3);
     }
 }
