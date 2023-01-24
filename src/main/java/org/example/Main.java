@@ -13,5 +13,6 @@ public class Main {
         con.select();
 //        con.insert("avraam");
         con.Update("ishumbl",3);
+
     }
 }

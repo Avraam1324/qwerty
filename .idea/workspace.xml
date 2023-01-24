@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca999b46-926d-4789-9d66-53b249004f24" name="Changes" comment="add insert and select">
+    <list default="true" id="ca999b46-926d-4789-9d66-53b249004f24" name="Changes" comment="add update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/myConnection.java" afterDir="false" />
@@ -51,6 +52,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -72,7 +74,8 @@
       <updated>1673894738006</updated>
       <workItem from="1673894739236" duration="1392000" />
       <workItem from="1673975375440" duration="7780000" />
-      <workItem from="1674036001886" duration="3353000" />
+      <workItem from="1674036001886" duration="10465000" />
+      <workItem from="1674592280887" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="zf">
       <created>1673894782998</created>
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673981455621</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add update">
+      <created>1674078346694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674078346694</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +130,7 @@
     <MESSAGE value="add copyRight" />
     <MESSAGE value="add" />
     <MESSAGE value="add insert and select" />
-    <option name="LAST_COMMIT_MESSAGE" value="add insert and select" />
+    <MESSAGE value="add update" />
+    <option name="LAST_COMMIT_MESSAGE" value="add update" />
   </component>
 </project>
