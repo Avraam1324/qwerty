@@ -85,27 +85,30 @@ public class myConnection {
         list = selecFromList(cont);
         boolean flage = true;
         for (entity user : list) {
-            if (user.id == 1) {
-                user.try_coloms = "Aral";
-                flage = false;
+            if (user.getId() == 15) {
+                user.setTry_coloms("arial");
+                Update(user.getTry_coloms(),user.getId());
+                flage= false;
 
             }
-            if (user.try_coloms == "nehoraii") {
-                user.try_coloms = "tgabou";
+            if (user.getTry_coloms()=="avraam") {
+                user.setTry_coloms("tgabou");
+                Update(user.getTry_coloms(),user.getId());
                 flage = false;
 
             }
         }
         if(flage){
-            String name="yosef";
-            insert(name);
+            entity user1 = new entity();
+            user1.setTry_coloms("Yosef");
+            insert(user1.getTry_coloms());
         }
 
     }
     public List<entity> selecFromList(Connection con) {
         List<entity> lsat = new ArrayList<entity>();
         try {
-            Statement statement =getConnection().createStatement();
+            Statement statement =con.createStatement();
             String query = "SELECT * FROM try_table";
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()) {
