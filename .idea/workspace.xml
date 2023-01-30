@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca999b46-926d-4789-9d66-53b249004f24" name="Changes" comment="משימה 2 של עמית">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/myConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <workItem from="1674036001886" duration="10465000" />
       <workItem from="1674592280887" duration="1801000" />
       <workItem from="1674594217625" duration="378000" />
-      <workItem from="1674672652454" duration="1052000" />
+      <workItem from="1674672652454" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="zf">
       <created>1673894782998</created>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674593552979</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="משימה 2 של עמית">
+      <created>1674673713482</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674673713482</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

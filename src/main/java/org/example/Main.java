@@ -10,9 +10,11 @@ public class Main {
     public static void main(String[] args) {
         myConnection con=new myConnection();
         con.getConnection();
-        con.select();
+//        con.select();
 //        con.insert("avraam");
 //        con.Update("ishumbl",3);
           con.user_list();
+          con.select();
+
     }
 }

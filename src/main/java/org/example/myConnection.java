@@ -85,14 +85,14 @@ public class myConnection {
         list = selecFromList(cont);
         boolean flage = true;
         for (entity user : list) {
-            if (user.getId() == 15) {
-                user.setTry_coloms("arial");
-                Update(user.getTry_coloms(),user.getId());
-                flage= false;
-
-            }
-            if (user.getTry_coloms()=="avraam") {
-                user.setTry_coloms("tgabou");
+//              if (user.getId() == 9) {
+//                user.setTry_coloms("arial");
+//                Update(user.getTry_coloms(),user.getId());
+//                flage= false;
+//
+//             }
+            if (user.getTry_coloms().equals("avraam")) {
+                user.setTry_coloms("gontn");
                 Update(user.getTry_coloms(),user.getId());
                 flage = false;
 
